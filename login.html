@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="icon" href="photos-spotify/icon-spotify.svg">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>  
+    <div class="container-login">
+        <div class="navbar-login">
+            <img class="spotify-logo-login invert" src="photos-spotify/spotify-logo.svg" alt="">
+        </div>
+        <div class="cross-icon" onclick="redirectToHome()">X</div>
+        <div class="login-box">
+            <h1 class="login-heading">Log in to Spotify</h1>
+            <div class="continue-with-login">
+                <button class="continue-links-login with-google">Continue with Google</button>
+                <button class="continue-links-login with-fb"><span><img src="" alt=""></span>Continue with Facebook</button>
+                <button class="continue-links-login with-apple"><span><img src="" alt=""></span>Continue with Apple</button>
+                <button class="continue-links-login with-number">Continue with phone number</button>
+            </div>
+            <div class="line-login"></div>
+            <form class="login-form" action="#">
+                <label class="email-label" for="email">Email or username</label>
+                <input type="text" id="email" placeholder="Email or username">
+                <label class="password-label" for="password">Password</label>
+                <input type="password" name="" id="password" placeholder="Password">
+                <button class="log-in-button">Log in</button>
+                <a class="forgot-password-login" href="#">Forgot your password?</a>
+            </form>
+            <div class="line-login"></div>
+            <p class="sign-up-page-redirect">Don't have an account?<a class="sign-up-page-redirect-link" href="./signup.html">Sign up for Spotify</a></p>
+        </div>
+        <div class="footer-login">
+            <p class="footer-para-login">This site is protected by reCAPTCHA and the Google <a class="footer-a" href="#">Privacy Policy</a>and <a class="footer-a"  href="#">Terms of Service</a> apply.</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

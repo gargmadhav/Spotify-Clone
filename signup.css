@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container-signup{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(18,18,18);
+}
+.cross-icon{
+    /* background-color: white; */
+    display: inline;
+    float:  right;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+}
+.invert{
+    filter: invert(1);
+}
+.spotify-logo-login{
+    margin: 2rem 0 2rem 2rem;
+    width: 6.5rem;
+}
+.signup-box{
+    margin: 0rem auto;
+    background-color: rgb(18, 18, 18);
+    width: 370px;
+    height: 900px;
+    text-align: center;
+    border-radius: 10px;
+}
+.signup-heading{
+    color: white;
+    font-size: 46px;
+    text-align: left;
+}
+.signup-form{
+    color: white;
+    display: grid;
+    grid-template-columns: 250px;
+    padding-top: 40px;
+}
+.email-label{
+    padding-right: 122px;
+    width: 500;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+#email{
+    height: 40px;
+    width: 330px;
+    border: 2px solid rgb(88, 83, 83);
+    background-color: rgb(18,18,18);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1rem;
+    color: white;
+}
+.password-label{
+    padding-right: 175px;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+}
+#password{
+    height: 40px;
+    width: 330px;
+    border: 2px solid rgb(88, 83, 83);
+    background-color: rgb(18,18,18);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1rem;
+    color: white;
+}
+.confirm-password-label{
+    padding-right: 120px;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+}
+.sign-up-button{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 300px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(70, 183, 70);
+    cursor: pointer;    
+}
+.signup-line{
+    border: 1px solid rgb(81, 77, 77);
+    margin: 2rem 2rem 0rem 0rem;
+}
+.continue-with-signup{
+    padding-top: 20px;
+    text-align: center;
+}
+.continue-links-signup{
+    display: block;
+    width: 320px;
+    padding: 0.5m 3rem;
+    margin-left: 0.5em;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    height: 45px;
+    border-radius: 40px;
+    border: 2px solid rgb(88, 83, 83);
+    color: white;
+    background-color: rgb(18,18,18);
+    font-size: 15px;
+    cursor: pointer;
+}
+.login-in-page-redirect{
+    color: rgb(119, 109, 109);
+    margin-top: 2rem;
+    font-weight: 550;
+}
+.login-in-page-redirect-link{
+    color: white;
+    padding-left: 8px;
+    font-weight: 400;
+}
+.footer-para-singup{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 0.75rem;
+    color: rgb(119, 109, 109);
+}
+.footer-a{
+    color: rgb(119, 109, 109);
+}

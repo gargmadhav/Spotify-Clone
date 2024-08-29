@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="photos-spotify/icon-spotify.svg">
+    <link rel="stylesheet" href="playlist.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+        <div class="left-container-box1">
+            <div class="spotify-name">
+                <img class="spotify-logo-1 invert" src="photos-spotify/spotify-logo.svg" alt="Spotify-logo">
+            </div>
+            <div class="home-section">
+                <img class="home-logo invert" src="photos-spotify/home-logo.svg" alt="Home-logo">
+                <h3 class="home-name" onclick="redirectToHome()">Home</h3>
+            </div>
+            <div class="search-section">
+                <img class="search-logo invert" src="photos-spotify/search.svg" alt="search-logo">
+                <h3 class="search-name">Search</h3>
+            </div>
+        </div> 
+        <div class="left-container-box2">
+            <div class="library">
+                <img class="libary-logo invert" src="photos-spotify/library.svg" alt="Library-svg">
+                <h3 class="librray-name">Your Library</h3>
+            </div>
+            <img class="plus-logo invert" src="photos-spotify/plus.svg" alt="Plus-svg">
+            <button class="left-box-playlist">Playlist</button>
+            <div class="playlist-open-left">
+                <img class="image-playlist-open" src="photos-spotify/watchout.jpg" alt="">
+                <div class="playlist-open-info">
+                    <p class="my-playlist-1">My Playlist #1</p>
+                </div>
+                <div class="playlist-main-plus-open">
+                    <button id="toggle"><img class="plus1 invert" src="photos-spotify/plus.svg" alt="Plus-svg"></button>
+                </div>
+            </div>
+            <div class="playlist-open-left">
+                <img class="image-playlist-open" src="photos-spotify/desi.jpg" alt="">
+                <div class="playlist-open-info">
+                    <p class="my-playlist-1">My Playlist #2</p>
+                </div>
+                <div class="playlist-main-plus-open">
+                    <button id="toggle"><img class="plus1 invert" src="photos-spotify/plus.svg" alt="Plus-svg"></button>
+                </div>
+            </div>
+            <div class="playlist-open-left">
+                <img class="image-playlist-open" src="photos-spotify/kalastar.jpg" alt="">
+                <div class="playlist-open-info">
+                    <p class="my-playlist-1">My Playlist #3</p>
+                </div>
+                <div class="playlist-main-plus-open">
+                    <button id="toggle"><img class="plus1 invert" src="photos-spotify/plus.svg" alt="Plus-svg"></button>
+                </div>
+            </div>
+            <div class="playlist-open-left">
+                <img class="image-playlist-open" src="photos-spotify/players.jpg" alt="">
+                <div class="playlist-open-info">
+                    <p class="my-playlist-1">My Playlist #3</p>
+                </div>
+                <div class="playlist-main-plus-open">
+                    <button id="toggle"><img class="plus1 invert" src="photos-spotify/plus.svg" alt="Plus-svg"></button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="right-container">
+            <div class="playlist-main-page">
+                <div class="playlist-page">
+                    <div class="playlist-upper-box">
+                        <img class="playlist-img" src="photos-spotify/watchout.jpg" alt="">
+                        <div class="playlist-name">
+                            <h3 class="playlist">Playlist</h3>
+                            <h1 class="my-playlist">My Playlist #1</h1>
+                            <p class="playlist-time">Keshav 11 songs, 56 min 6 sec</p>
+                        </div>
+                    </div>
+                    <div class="playlist-lower-box">
+                        <div class="playlist-lower-box-play">
+                            <img class="playlist-lower-box-play-button" src="photos-spotify/play-button.svg" alt="">
+                            <p class="dots">...</p>
+                        </div>
+                        <div class="main-songs-playlist-heading">
+                            <div class="hash">#</div>
+                            <div class="title-playlist">Title</div>
+                            <div class="album-playlist">Album</div>
+                            <div class="date-playlist">Date Added</div>
+                            <div class="time-playlist">Time</div>
+                        </div>
+                        <div class="line-playlist"></div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">1</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/watchout.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">Watch Out</div>
+                                    <div class="playlist-singer-name-grid">Sidhu Moose Wala</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">Moosetape</div>
+                            <div class="date-playlist">1 days ago</div>
+                            <div class="time-playlist">3:13</div>
+                        </div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">2</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/295.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">295</div>
+                                    <div class="playlist-singer-name-grid">Sidhu Moose Wala</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">PBX 1</div>
+                            <div class="date-playlist">1 days ago</div>
+                            <div class="time-playlist">3:10</div>
+                        </div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">3</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/on top.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">On Top</div>
+                                    <div class="playlist-singer-name-grid">Karan Aujala</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">Sweet Dreams</div>
+                            <div class="date-playlist">1 days ago</div>
+                            <div class="time-playlist">2:50</div>
+                        </div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">4</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/no name.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">No Name</div>
+                                    <div class="playlist-singer-name-grid">Sidhu Moose Wala</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">Moosetape</div>
+                            <div class="date-playlist">1 days ago</div>
+                            <div class="time-playlist">2:46</div>
+                        </div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">5</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/players.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">Players</div>
+                                    <div class="playlist-singer-name-grid">Karan Aujala</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">Four You</div>
+                            <div class="date-playlist">1 days ago</div>
+                            <div class="time-playlist">2:39</div>
+                        </div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">6</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/take it easy.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">Take it Easy</div>
+                                    <div class="playlist-singer-name-grid">Karan Aujala</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">Memories</div>
+                            <div class="date-playlist">1 days ago</div>
+                            <div class="time-playlist">3:13</div>
+                        </div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">7</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/chorni.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">Choorni</div>
+                                    <div class="playlist-singer-name-grid">Sidhu Moose Wala</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">Moosetape</div>
+                            <div class="date-playlist">1 days ago</div>
+                            <div class="time-playlist">3:09</div>
+                        </div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">8</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/softly.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">Softly</div>
+                                    <div class="playlist-singer-name-grid">Karan Aujala</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">Memories</div>
+                            <div class="date-playlist">1 days ago</div>
+                            <div class="time-playlist">3:00</div>
+                        </div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">9</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/drippy.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">Drippy</div>
+                                    <div class="playlist-singer-name-grid">Sidhu Moose Wala</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">Moosetape</div>
+                            <div class="date-playlist">2 days ago</div>
+                            <div class="time-playlist">2:25</div>
+                        </div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">10</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/100 mllion.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">100 Million</div>
+                                    <div class="playlist-singer-name-grid">Sidhu Moose Wala</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">Moosetape</div>
+                            <div class="date-playlist">2 days ago</div>
+                            <div class="time-playlist">3:00</div>
+                        </div>
+                        <div class="copy playlist-song1 songs-of-playlist">
+                            <div class="hash">11</div>
+                            <div class="song-playlist-number">
+                                <img class="song-playlist-number-banner" src="photos-spotify/kalastar.jpg" alt="">
+                                <div class="song-playlist-number-info">
+                                    <div class="playlist-song-name-grid">Kalastar</div>
+                                    <div class="playlist-singer-name-grid">Honey Singh</div>
+                                </div>
+                            </div>
+                            <div class="album-playlist">Sweet Dreams</div>
+                            <div class="date-playlist">2 days ago</div>
+                            <div class="time-playlist">3:13</div>
+                        </div>
+                    </div>
+            
+                </div>
+                </div>
+                <div class="footer">
+                    <div class="company-container">
+                        <h3 class="company">Company</h3>
+                        <a class="footer-links" href="#">About</a>
+                        <a class="footer-links" href="#">Jobs</a>
+                        <a class="footer-links" href="#">For the Record</a>
+                    </div>
+                    <div class="communities-conatiner">
+                        <div class="communities">Communities</div>
+                        <a class="footer-links" href="#">For Artists</a>
+                        <a class="footer-links" href="#">Developers</a>
+                        <a class="footer-links" href="#">Advertising</a>
+                        <a class="footer-links" href="#">Investors</a>
+                        <a class="footer-links" href="#">Vendors</a>
+                    </div>
+                    <div class="useful-links">
+                        <div class="links">Useful links</div>
+                        <a class="footer-links" href="#">Support</a>
+                        <a class="footer-links" href="#">Free MObile App</a>
+                        <a class="footer-links" href="./feedback.html">Feedback</a>
+                    </div>
+                    <div class="social-media">
+                        <img class="instagram invert" src="photos-spotify/insta.svg" alt="">
+                        <img class="twitter invert" src="photos-spotify/twitter.svg" alt="">
+                        <img class="fb invert" src="photos-spotify/f-b.svg" alt="">
+                    </div>
+                </div>
+        </div>
+        <div class="play-footer">
+            <div class="play-footer-1">
+                <img class="song-poster-play-footer" src="photos-spotify/dhere.jpg" alt="">
+                <div class="play-footer-song-details">
+                    <p class="song-name-play-footer">Dhere Dhere</p>
+                    <p class="singer-name-footer">Honey Singh</p>
+                </div>
+            </div>
+            <div class="play-footer-2">
+                <img class="footer-icon-1 one invert" src="photos-spotify/1.svg" alt="">
+                <img class="footer-icon-1 two invert" src="photos-spotify/2.svg" alt="">
+                <img class="footer-icon-1 three invert" src="photos-spotify/3.svg" alt="">
+                <img class="footer-icon-1 four invert" src="photos-spotify/4.svg" alt="">
+                <img class="footer-icon-1 five invert" src="photos-spotify/5.svg" alt=""> 
+            </div>
+            <div class="play-footer-3">
+                <img class="footer-icon-3 " src="photos-spotify/6.svg" alt=""> 
+                <img class="footer-icon-3 " src="photos-spotify/7.svg" alt=""> 
+                <img class="footer-icon-3 " src="photos-spotify/8.svg" alt=""> 
+                <img class="footer-icon-3 " src="photos-spotify/9.svg" alt=""> 
+                <img class="footer-icon-3 " src="photos-spotify/10.svg" alt=""> 
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

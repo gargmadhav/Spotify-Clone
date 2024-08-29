@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="photos-spotify/icon-spotify.svg">    
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="left-container-box1">
+                <div class="spotify-name">
+                    <img class="spotify-logo-1 invert" src="photos-spotify/spotify-logo.svg" alt="Spotify-logo">
+                </div>
+                <div class="home-section">
+                    <img class="home-logo invert" src="photos-spotify/home-logo.svg" alt="Home-logo">
+                    <h3 class="home-name">Home</h3>
+                </div>
+                <div class="search-section">
+                    <img class="search-logo invert" src="photos-spotify/search.svg" alt="search-logo">
+                    <h3 class="search-name">Search</h3>
+                </div>
+            </div> 
+            <div class="left-container-box2">
+                <div class="library">
+                    <img class="libary-logo invert" src="photos-spotify/library.svg" alt="Library-svg">
+                    <h3 class="librray-name">Your Library</h3>
+                </div>
+                <img class="plus-logo invert" src="photos-spotify/plus.svg" alt="Plus-svg">
+                <button class="left-box-playlist">Playlist</button>
+                <div class="playlist-open-left">
+                    <img class="image-playlist-open" src="photos-spotify/watchout.jpg" alt="">
+                    <div class="playlist-open-info">
+                        <p class="my-playlist-1">My Playlist #1</p>
+                        
+                    </div>
+                    <div class="playlist-main-plus-open">
+                        <button id="toggle"><img class="plus1 invert" src="photos-spotify/plus.svg" alt="Plus-svg"></button>
+                    </div>
+                </div>
+                <div class="playlist-open-left">
+                    <img class="image-playlist-open" src="photos-spotify/desi.jpg" alt="">
+                    <div class="playlist-open-info">
+                        <p class="my-playlist-1">My Playlist #2</p>
+                        
+                    </div>
+                    <div class="playlist-main-plus-open">
+                        <button id="toggle"><img class="plus1 invert" src="photos-spotify/plus.svg" alt="Plus-svg"></button>
+                    </div>
+                </div>
+                <div class="playlist-open-left">
+                    <img class="image-playlist-open" src="photos-spotify/kalastar.jpg" alt="">
+                    <div class="playlist-open-info">
+                        <p class="my-playlist-1">My Playlist #3</p>
+                    </div>
+                    <div class="playlist-main-plus-open">
+                        <button id="toggle"><img class="plus1 invert" src="photos-spotify/plus.svg" alt="Plus-svg"></button>
+                    </div>
+                </div>
+                <div class="playlist-open-left">
+                    <img class="image-playlist-open" src="photos-spotify/players.jpg" alt="">
+                    <div class="playlist-open-info">
+                        <p class="my-playlist-1">My Playlist #4</p>
+                        
+                    </div>
+                    <div class="playlist-main-plus-open">
+                        <button id="toggle"><img class="plus1 invert" src="photos-spotify/plus.svg" alt="Plus-svg"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="right-container-nav">
+                <div class="arrows">
+                    <div class="arrow1-box">
+                        <img class="right-left-arrow invert" src="photos-spotify/left-arrow.svg" alt="arrow">
+                    </div>
+                    <div class="arrow2-box">
+                        <img class="right-left-arrow invert" src="photos-spotify/right-arrow.svg" alt="arrow">
+                    </div>
+                </div>
+                <div class="right-top">
+                    <span>
+                        <button class="explore-premium" type="button">Explore Premium</button>
+                    </span>
+                    <span>
+                        <button class="install-app" >Install App</button>
+                    </span>
+                    <span>
+                        <span class="notification-box"><img class="bell-icon invert" src="photos-spotify/bell-icon.svg" alt="">
+                        </span>
+                    </span>
+                    <span>
+                        <div class="navbar" id="navbar">
+                            <div class="user-icon" onclick="toggleMenu()">User</div>
+                            <div class="options" id="options">
+                                <a href="./login.html">Login/SignUp</a>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                
+            </div>
+
+            <div class="right-container-songs">
+                <h2 class="smw">Sidhu Moose Wala</h2>
+            <div class="song-card">
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/watchout.jpg" alt="">
+                    <h3 class="song-name">Watch Out</h3>
+                    <p class="singer-name">Sidhu Moose Wala</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/drippy.jpg" alt="">
+                    <h3 class="song-name">Drippy</h3>
+                    <p class="singer-name">Sidhu Moose Wala</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/chorni.jpg" alt="">
+                    <h3 class="song-name">Chorni</h3>
+                    <p class="singer-name">Sidhu Moose Wala</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/no name.jpg" alt="">
+                    <h3 class="song-name">No Name</h3>
+                    <p class="singer-name">Sidhu Moose Wala</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/295.jpg" alt="">
+                    <h3 class="song-name">295</h3>
+                    <p class="singer-name">Sidhu Moose Wala</p>
+                </div>
+            </div>
+            <h2 class="karan-aujala">Karan Aujala</h2>
+            <div class="song-card">
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/100 mllion.jpg" alt="">
+                    <h3 class="song-name">100 Million</h3>
+                    <p class="singer-name">Karan Aujala</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/softly.jpg" alt="">
+                    <h3 class="song-name">Softly</h3>
+                    <p class="singer-name">Karan Aujala</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/players.jpg" alt="">
+                    <h3 class="song-name">Players</h3>
+                    <p class="singer-name">Karan Aujala</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/take it easy.jpg" alt="">
+                    <h3 class="song-name">Take It Easy</h3>
+                    <p class="singer-name">Karan Aujala</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/on top.jpg" alt="">
+                    <h3 class="song-name">On TOp</h3>
+                    <p class="singer-name">Karan Aujala</p>
+                </div>
+            </div>
+            <h2 class="yoyo">Yo Yo Honey Singh</h2>
+            <div class="song-card">
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/desi.jpg" alt="">
+                    <h3 class="song-name">Desi Kalakar</h3>
+                    <p class="singer-name">Honey  Singh</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/blue eyes.jpg" alt="">
+                    <h3 class="song-name">Blue Eyes</h3>
+                    <p class="singer-name">Honey  Singh</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/brown rang.jpg" alt="">
+                    <h3 class="song-name">Brown Rang</h3>
+                    <p class="singer-name">Honey  Singh</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/dhere.jpg" alt="">
+                    <h3 class="song-name">Dhere Dhere</h3>
+                    <p class="singer-name">Honey  Singh</p>
+                </div>
+                <div class="card">
+                    <img class="play-button" src="photos-spotify/play-button.svg" alt="">
+                    <img class="song-banner" src="photos-spotify/kalastar.jpg" alt="">
+                    <h3 class="song-name">Kalastar</h3>
+                    <p class="singer-name">Honey  Singh</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="footer">
+                <div class="company-container">
+                    <h3 class="company">Company</h3>
+                    <a class="footer-links" href="#">About</a>
+                    <a class="footer-links" href="#">Jobs</a>
+                    <a class="footer-links" href="#">For the Record</a>
+                </div>
+                <div class="communities-conatiner">
+                    <div class="communities">Communities</div>
+                    <a class="footer-links" href="#">For Artists</a>
+                    <a class="footer-links" href="#">Developers</a>
+                    <a class="footer-links" href="#">Advertising</a>
+                    <a class="footer-links" href="#">Investors</a>
+                    <a class="footer-links" href="#">Vendors</a>
+                </div>
+                <div class="useful-links">
+                    <div class="links">Useful links</div>
+                    <a class="footer-links" href="#">Support</a>
+                    <a class="footer-links" href="#">Free MObile App</a>
+                    <a class="footer-links" href="./feedback.html">Feedback</a>
+                </div>
+                <div class="social-media">
+                    <img class="instagram invert" src="photos-spotify/insta.svg" alt="">
+                    <img class="twitter invert" src="photos-spotify/twitter.svg" alt="">
+                    <img class="fb invert" src="photos-spotify/f-b.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="play-footer">
+            <div class="play-footer-1">
+                <img class="song-poster-play-footer" src="photos-spotify/dhere.jpg" alt="">
+                <div class="play-footer-song-details">
+                    <p class="song-name-play-footer">Dhere Dhere</p>
+                    <p class="singer-name-footer">Honey Singh</p>
+                </div>
+            </div>
+            <div class="play-footer-2">
+                <img class="footer-icon-1 one invert" src="photos-spotify/1.svg" alt="">
+                <img class="footer-icon-1 two invert" src="photos-spotify/2.svg" alt="">
+                <img class="footer-icon-1 three invert" src="photos-spotify/3.svg" alt="">
+                <img class="footer-icon-1 four invert" src="photos-spotify/4.svg" alt="">
+                <img class="footer-icon-1 five invert" src="photos-spotify/5.svg" alt=""> 
+            </div>
+            <div class="play-footer-3">
+                <img class="footer-icon-3 " src="photos-spotify/6.svg" alt=""> 
+                <img class="footer-icon-3 " src="photos-spotify/7.svg" alt=""> 
+                <img class="footer-icon-3 " src="photos-spotify/8.svg" alt=""> 
+                <img class="footer-icon-3 " src="photos-spotify/9.svg" alt=""> 
+                <img class="footer-icon-3 " src="photos-spotify/10.svg" alt=""> 
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

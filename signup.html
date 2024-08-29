@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" href="photos-spotify/icon-spotify.svg">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container-signup">
+        <div class="navbar-login">
+            <img class="spotify-logo-login invert" src="photos-spotify/spotify-logo.svg" alt="">
+            <div class="cross-icon" onclick="redirectToHome()">X</div>
+        </div>
+        
+        <div class="signup-box">
+            <h1 class="signup-heading">Sign up to start listening</h1>
+            <form class="signup-form" action="#">
+                <label class="email-label" for="email">Email or username</label>
+                <input type="text" id="email" placeholder="Email or username">
+                <label class="password-label" for="password">Password</label>
+                <input type="password" name="" id="password" placeholder="Password">
+                <label class="confirm-password-label" for="password">Confirm Password</label>
+                <input type="password" name="" id="password" placeholder="Password">
+                <button class="sign-up-button">Sign up</button>
+            </form>
+            <div class="signup-line"></div>
+            <div class="continue-with-signup">
+                <button class="continue-links-signup with-google">Signup with Google</button>
+                <button class="continue-links-signup with-fb"><span><img src="" alt=""></span>Signup with Facebook</button>
+                <button class="continue-links-signup with-apple"><span><img src="" alt=""></span>Signup with Apple</button>
+            </div>
+            <div class="signup-line"></div>
+            <p class="login-in-page-redirect">Already have an account?<a class="login-in-page-redirect-link" href="./login.html">Log in here.</a></p>
+            <p class="footer-para-singup">This site is protected by reCAPTCHA and the Google <a class="footer-a" href="#">Privacy Policy</a>and <a class="footer-a"  href="#">Terms of Service</a> apply.</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

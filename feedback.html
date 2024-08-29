@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="icon" href="photos-spotify/icon-spotify.svg">
+</head>
+<body>
+    <div class="conatiner-feedback">
+        <div class="navbar-feedback">
+            <img class="spotify-logo-feedback invert" src="photos-spotify/spotify-logo.svg" alt="">
+        </div>
+        <div class="cross-icon" onclick="redirectToHome()">X</div>
+        <div class="feedback-box">
+            <h1 class="feedback-heading">Feedback</h1>
+            <form action="#" class="feedback-form">
+                <label class="fname" for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="First name" required>
+                <label class="lname" for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Last name" required>
+                <label class="phone-number" for="phone-number">Phone number</label>
+                <input type="text"  id="phone-number" placeholder="+91XXXXX-XXXXX" required>
+                <label class="emailfeedback" for="emailfeedback">Your email</label>
+                <input type="text"  id="emailfeedback" placeholder="Email" required>
+                <div class="radio-box">
+                    <input type="radio" id="male" name="sex">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="sex">
+                    <label for="female">Female</label>
+                </div>
+                <label class="suggestion" for="suggestion">Feedback</label>
+                <input type="text"  id="suggestion" placeholder="Your Feedback" required>
+                <button class="submit-feedback" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="footer-feedback">
+            <p class="footer-feedback-para">Thank`s for your feedback.</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

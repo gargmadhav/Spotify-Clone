@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container-login{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41, 41, 41);
+}
+.cross-icon{
+    /* background-color: white; */
+    display: inline;
+    float:  right;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+}
+.navbar-login{
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(18,18,18);
+}
+.invert{
+    filter: invert(1);
+    width: 7rem;
+    margin: 2rem 0 1rem 3rem;
+}
+.login-box{
+    margin: 2rem auto;
+    background-color: rgb(18,18,18);
+    width: 720px;
+    height: 900px;
+    text-align: center;
+    border-radius: 10px;
+}
+.login-heading{
+    color: white;
+    font-size: 46px;
+    padding-top: 70px;
+}
+.continue-with-login{
+    padding-top: 50px;
+    text-align: center;
+}
+.continue-links-login{
+    display: block;
+    margin-left: 200px;
+    width: 320px;
+    padding: 0.2rem 3rem;
+    font-weight: 600;
+    margin-top: 0.2rem;
+    height: 45px;
+    border-radius: 40px;
+    border: 2px solid rgb(88, 83, 83);
+    color: white;
+    background-color: rgb(18,18,18);
+    font-size: 15px;
+    cursor: pointer;
+}
+.line-login{
+    border: 1px solid rgb(81, 77, 77);
+    margin: 2.5rem 7rem 0rem 7rem;
+}
+.login-form{
+    color: white;
+    display: grid;
+    grid-template-columns: 250px;
+    padding-left: 210px;
+    padding-top: 40px;
+}
+.email-label{
+    padding-right: 122px;
+    width: 500;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+#email{
+    height: 40px;
+    width: 300px;
+    border: 2px solid rgb(88, 83, 83);
+    background-color: rgb(18,18,18);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1rem;
+    color: white;
+}
+.password-label{
+    padding-right: 175px;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+}
+#password{
+    height: 40px;
+    width: 300px;
+    border: 2px solid rgb(88, 83, 83);
+    background-color: rgb(18,18,18);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1rem;
+    color: white;
+}
+.log-in-button{
+    margin-top: 2rem;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(70, 183, 70);
+    cursor: pointer;
+}
+.forgot-password-login{
+    text-decoration: underline;
+    margin-top: 3rem;
+    margin-left: 4.5rem;
+    color: white;
+    font-weight: 600;
+}
+.forgot-password-login:hover{
+    color: green;
+}
+.sign-up-page-redirect{
+    color: rgb(119, 109, 109);
+    margin-top: 4rem;
+    font-weight: 550;
+    cursor: pointer;
+}
+.sign-up-page-redirect-link{
+    color: white;
+    padding-left: 8px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.footer-login{
+    background-color: black;
+    height: 80px;
+}
+.footer-para-login{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 0.75rem;
+    color: rgb(119, 109, 109);
+}
+.footer-a{
+    color: rgb(119, 109, 109);
+}
